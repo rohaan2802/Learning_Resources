@@ -1,0 +1,6 @@
+
+
+
+                                        ************ Make Your Laptop Fast ************
+
+---> Goto Search bar and Search "Services" --->  goto sysmain option by pressing S to search it ---> double tap on it ---> Startup Type ---> Disabled ---> Then Stop ---> Apply ---> Then Ok ---> Then Restart once

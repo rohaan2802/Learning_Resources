@@ -1,0 +1,7 @@
+
+
+
+
+                                 ********** Windows Scanner *************
+
+Press Windows+R ---> type ---> mrt ---> Then ---> Next ---> Then ---> Quick Scan/ Full Scan ---> This Will Remove All Viruses from system

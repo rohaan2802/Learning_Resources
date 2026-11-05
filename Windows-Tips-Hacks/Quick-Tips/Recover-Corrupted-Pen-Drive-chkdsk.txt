@@ -1,0 +1,6 @@
+
+
+
+                       ****************  Recover the Corrupted Pen Drive    ************
+
+ Open CMD As an Administrator --->  Type Command --->  chkdsk F(Drive Name): /f ---> Press Enter 	

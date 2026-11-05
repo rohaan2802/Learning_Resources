@@ -1,0 +1,22 @@
+                             For Hiding
+
+right Click On The window from where you want to hide the file and open Git_Bash Here
+
+ 
+attrib ( ( with space )file name ) space +h +s
+
+                              For Showing               
+
+attrib ( ( with space )file name ) space -h -s
+
+
+
+                                                                              OR
+
+
+
+Press Shift+Right Click ---> OPen WIndows Power Shell --->  attrib +s +h "File_Name"
+Press Shift+Right Click ---> OPen WIndows Power Shell --->  attrib -s -h "File_Name"
+
+
+

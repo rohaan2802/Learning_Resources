@@ -1,0 +1,16 @@
+
+
+
+                                                   ***********  3 Useful ShortCuts  *********
+
+---> Windows + Ctrl + D    -----> Opens New DeskTop
+
+---> Ctrl+Shift+T                ------> Open the last open tab in chrome
+
+---> Windows+D                ------> Minimizes all the open tabs
+
+---> Windows+Alt+R        -------> Screen Recording 
+
+---> Windows+G               ------> You Can see Captures
+
+---> Windows+X               ----> Press "U" 3 times to Shutdown the PC

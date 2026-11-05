@@ -1,0 +1,7 @@
+
+
+
+                 ***********  Blocking Adds in Mobile Phone  *********
+
+
+Phone Settings --> DNS --> Select Private DNS --> dns.adguard.com --> Save

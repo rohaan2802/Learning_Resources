@@ -1,0 +1,25 @@
+MID 1 : 
+
+
+Adding Vectors, Components of Vectors, Unit Vectors, Vector & Scalar Products, Position & Displacement (2/3 dimensions), Numerical Problems ( chapter 03 & 04)
+Average/Instantaneous Velocity/Acceleration, Projectile Motion, horizontal/vertical motions  (Chapter # 04)
+Projectile Motion: equation of the path, max. height, time of flight and horizontal range, Uniform Circular Motion, Numerical Problems (Chapter # 04) 
+
+MID 2 : 
+
+Coulomb's Law, Charge Quantization & Conservation, Electric Field, Electric Field Due to Point Charge and Dipole, Numerical Problems (Chapters 21 & 22)
+
+Gauss' Law, Flux, Flux of Electric Field, Gauss's Law, Equivalency of Gauss's Law and Coulombs' Law  (Chapter # 23)
+
+Cylindrical Symmetry, Planar Symmetry, Spherical Symmetry, Numerical Problems (Chapter # 23)
+FINAL: 
+Capacitance, Parallel Plate, Cylindrical & Spherical Capacitors, Capacitors in Parallel and In Series, Numerical Problems (Chapter # 25)
+
+
+Electric Current, Current Density and Drift Speed, Resistance & Resistivity, Ohm's Law, Numerical Problems (Chapter # 26)
+
+Magnetic Fields and Field Lines, Crossed Fields: Hall Effect, Circulating Charge Particles, Magnetic Force On
+Current Carrying Wire, Numerical Problems (Chapter # 28)
+
+Magnetic Field Due to Current, Ampere's Law, Magnetic Field Inside/Outside Wire, Solenoids & Toroids &
+Between two Parallel Wires (Chapter # 29)

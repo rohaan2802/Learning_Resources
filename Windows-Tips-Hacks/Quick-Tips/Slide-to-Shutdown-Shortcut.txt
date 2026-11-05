@@ -1,0 +1,6 @@
+
+
+
+                                     *********** ShutDown Trick ***********
+
+Right CLick ---> New ---> ShortCut ---> slidetoshutdown.exe ---> click Next ---> Click Finish 

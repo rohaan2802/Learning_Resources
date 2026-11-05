@@ -1,0 +1,6 @@
+           
+
+                     *************  Spped Up Wifi  ***********
+
+Device Manager --> Network Adapters  --> Select your Wireless Adapter --> Right Click --> Properties --> 
+Advavanced --> Roaming Aggresiveness/ Transmit ---> Select it and Change the level to Highest

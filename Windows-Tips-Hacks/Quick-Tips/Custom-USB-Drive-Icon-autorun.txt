@@ -1,0 +1,17 @@
+
+
+
+                       ************  USB/DISK Profile  *********
+
+Open the profile picture you want in Pain and save as BMP Picture .
+Then Open NotePAD and Wite the following Code
+
+
+[ autorun ]
+icon=(picture name).bmp
+
+
+Then save the notepad as autorun.inf and select All Files.
+
+Then Copy the both files in PenDrive and Hide both files by selecting them and open the properties.
+Then Reinsert the penDrive.

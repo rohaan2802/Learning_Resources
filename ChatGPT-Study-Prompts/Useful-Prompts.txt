@@ -1,0 +1,86 @@
+Chatgpt Useful Prompts Methods
+
+1. Pareto Principle
+
+Prompt: I want to learn [Insert Topic]. Can you use the Pareto principle, which identifies the 20% of the topic that will yield 80% of the desired results, to create a focused learning plan for me?
+
+2. Explain like I'm a beginner
+
+Prompt: Explain [Insert topic] in simple terms. Explain to me as if I'm a beginner.
+
+3. Study schedule
+
+Prompt: Create a study schedule for [Insert Topic/Subject]. I can study for 2 hours every Tuesday and Thursday (You can change accordingly). Please include time for revision and testing.
+
+4. Improve Decision Making
+
+Prompt: I am trying to decide if I should [Insert decision]. Give me a list of pros and cons that will help me decide why I should or shouldn't make this decision.
+
+5. Learn any new skill
+
+Prompt: I want to learn [Insert skill]. Generate 30 day plan that will help a beginner like me to learn the skill from scratch.
+
+6. Turn ChatGPT into a Grammar Guide
+
+Prompt: I want you to act as a grammar guide. Can you explain [the topics] and provide instructions on [how to apply the rule or concept]? Can you also give me examples of [how the rule or concept works in practice]?
+
+
+
+      						===================================================
+
+
+5 chatgpt prompts that helped me optimize my Linkedln in minutes as a student
+
+1. Hi ChatGPT, I want to optimize my LinkedIn headline to stand out to recruiters. I'm [mention major] with a passion for [mention interest] and [mention interest]. Can you help me craft 5 compelling headline that not only showcases these skills but also reflects my enthusiasm for innovative solutions in [mention industry]
+
+2. Hey ChatGPT, I'm struggling to write an engaging 'About' section on my Linkedin profile. l'm [mention major] with a keen interest in [mention interest] and [mention interest]. How can I effectively introduce myself, share my journey from [mention relevant experience] to [mention relevant experience], and highlight my career goals to attract like-minded professionals and opportunities in [mention industry]?
+
+3. Hi there! I'm looking to enhance my LinkedIn profile by showcasing my experiences with more impact. As a [mention major], I've been involved in several [mention relevant activities], but I'm not sure how to detail these experiences to grab recruiters' attention Can you provide specific tips on quantifying my achievements and highlighting the skills l've developed while also giving examples from my information
+
+4. Hello ChatGPT, I'm a [mention major] with limited work experience but a strong record of involvement in [mention interest] and [mention interest]. How can 1 leverage these extracurricular activities and projects to make my Linkedin profile more attractive to potential opportunities in [mention industry]?
+
+5. Hey ChatGPT, I've heard that multimedia content can make a LinkedIn profile more engaging. I'm [mention major] with a portfolio of [mention interest]-related projects and visualizations. Can you suggest unique ways to incorporate these visual elements alls Delon into my profile to showcase my creativity and skills effectively, perhaps even linking to interactive models or virtual tours?
+
+
+      						===================================================
+
+Prompts that's Boost Your Linkedin Profile 🤩
+
+* LinkedIn Headline Prompt: "Please help me create a LinkedIn headline communicating my experience, qualifications, and unique value. Consider incorporating keywords relevant to my industry as mentioned in the resume below and showcasing my passion or mission. My headline should be a snapshot that captures attention and encourages visitors to explore my profile further." My Resume: [Paste Your Resume]
+
+* LinkedIn Summary Prompt: "Craft a concise and compelling summary for my LinkedIn profile highlighting my professional journey, key skills, and what makes me unique. Keep the tone conversational and ensure the length does not exceed 150 words. Please find the attached resume for reference." My Resume: [Paste Your Resume]
+
+* LinkedIn Experience Section Prompt: "Craft me impactful and detailed entries for my Experience section in LinkedIn that go beyond job descriptions. Share not only what I did but how my contributions made a difference. Utilize action verbs, quantify achievements where possible, and provide context to highlight the value I brought to each role. Use my Resume below for the details" My Resume: [Paste Your Resume]
+
+* Networking Icebreaker Prompt: "Give me content to start a conversation with a new connection on LinkedIn by sharing a recent industry news article or asking about their latest professional achievement. Start the dialogue on a positive and engaging note. Keep the tone conversational and limit the words to 100."
+
+* Content Sharing Prompt: "I would like you to create content for my LinkedIn profile. Craft me a few interesting, informative, and pertinent posts for LinkedIn that are related to [Your Domain/Your Interest]. Mainly emphasis on sharing industry knowledge, personal experiences, and thought leadership. Keep the tone conversational and limit the words to 150 maximum."
+
+
+      						===================================================
+
+Chatgpt Killing Prompts
+
+1. Master Any New Skill
+
+- Prompt: "I have 3 free days a week and 2 months. Design a crash study plan to master [Enter desired skill]."
+
+2. Stand out from the crowd with a stellar resume
+
+- Prompt: "Analyse my professional details below and create a persuasive resume that will help me get the job of [enter job details]: " [Enter your professional details]
+
+3. Top-Notch Interview Preparation
+
+- Prompt:"Act as a world-class interviewer: Ask questions about [Enter topic]. I will answer these questions. After I answer, suggest the best answer and provide another question."
+
+4. Solve complex problems using First Principles Thinking Framework
+
+- Prompt: "I am having difficulty learning [Enter your desired topic]. Help me understand it better by using First Principles Thinking."
+
+5. Boost your productivity with insights from top performers
+
+- Prompt:"Analyze the top performers in [insert your field of work]. Give me a list of the most important lessons I can learn from these top performers to boost my productivity."
+
+
+
+      						===================================================

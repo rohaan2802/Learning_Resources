@@ -1,0 +1,6 @@
+
+
+
+                       **********  System Access Verifying  ********
+
+Windows+R  ---> netplwiz ---> Enter

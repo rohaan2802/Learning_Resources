@@ -1,0 +1,12 @@
+
+
+
+                       *************  Storage Health  ***********
+Open CMD as an Administrator --> Tyep ---> chkdsk ---> Press Enter ---> if No Problem Message Found then SSD will be healthy....
+
+
+
+
+                       **************  RAM Health   *************
+
+Open CMD ( Not as an Administrator ) --->  Type ---> mdsched.exe ---> Press Enter ---> Click on Restart Now ----> If No memory Errors were detected message found then No Issue 

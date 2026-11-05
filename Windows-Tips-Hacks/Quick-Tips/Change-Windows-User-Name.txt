@@ -1,0 +1,14 @@
+How to change user name in windows 10 ?
+
+Press Windows key + R, type: netplwiz or control userpasswords2, then hit Enter. Select the account, then click Properties. Select the General tab, then enter the user name you want to use. Click Apply then OK, click Apply then OK again to confirm the change.
+
+How to take SS in windows 10 ?
+
+Press Windows logo key + Shift + S.
+
+
+How to screen record in windows 10 ?
+
+Press the Windows logo key+Alt+R to start recording a clip.
+
+

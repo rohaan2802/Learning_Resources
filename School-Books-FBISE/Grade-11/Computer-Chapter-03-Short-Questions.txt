@@ -1,0 +1,415 @@
+Short Questions (Exercise)
+
+
+1. What are the applications of computer programming in daily life?
+Ans:
+i. Online Services: Websites, social media, and online shopping platforms rely on programming to function and provide user experiences.
+ii. Entertainment: Video games, streaming services, and mobile apps are built using programming languages.
+iii. Home Automation: Smart home devices like thermostats, lights, and security systems use programming for functionality and integration.
+iv. Personal Finance: Budgeting apps, investment tools, and online banking platforms are powered by programming.
+v. Communication: Email services, messaging apps, and video conferencing tools depend on programming for their operation.
+vi. Automating Tasks: Scripts and programs can automate repetitive tasks like file organization, data entry, and scheduling.
+
+
+2. Write code to take input a number from the user and print its mathematical table on screen from 1 to 10.
+Ans:
+
+
+# Taking input from the user  
+number = int(input("Enter a number: "))  
+
+# Printing the multiplication table from 1 to 10  
+print(f"Multiplication table for {number}:")  
+
+for i in range(1, 11):  
+    print(f"{number} x {i} = {number * i}")  
+
+
+3. Take an odd number as input from the user, check if it is odd, otherwise ask the user to re-enter an odd number.
+Ans:
+
+
+# Function to check if a number is odd  
+def is_odd(number):  
+    return number % 2 != 0  
+
+# Prompt the user to enter an odd number  
+while True:  
+    number = int(input("Enter an odd number: "))  
+    if is_odd(number):  
+        print(f"Thank you! {number} is an odd number.")  
+        break  
+    else:  
+        print("That is not an odd number. Please try again.")  
+
+
+
+4. Write down the main examples of Python-based applications.
+Ans:
+
+Python-based Applications:
+i. Web Development
+
+Examples: Instagram, Pinterest
+ii. Desktop Applications
+
+Examples: Applications like Dropbox client
+iii. Game Development
+
+Examples: Simple 2D games, Educational games
+iv. Network Programming
+
+Examples: Chat applications
+v. Scientific Computing
+
+Examples: Simulation tools, mathematical computations
+vi. Educational
+
+Examples: Interactive coding environments, educational software
+vii. Machine Learning and Artificial Intelligence
+
+Examples: Image recognition models, natural language processing applications
+
+
+
+5. Differentiate between global and local variables with the help of a suitable example.
+Local Variables									Global Variables
+1. Local variables are initialized inside	                                                              1. Global variables are defined outside any function 
+ a function and belong only to that particular function.	                          and are accessible throughout the program.
+2. Used in that function.					  2. Used in any function.
+3. Created when control enters the function.			  3. Created when the program starts.
+4. Destroyed when control exits the function.			  4. Destroyed when the program ends.
+Example 1 (Local Variable):
+
+
+def print_local():  
+    # Local variable  
+    lv = "I am a local variable"  
+    print(lv)  
+
+print_local()  # Output: I am a local variable  
+
+
+Example 2 (Global Variable):
+
+
+# Global variable  
+gv = "I am a global variable"  
+
+def print_global():  
+    # Accessing the global variable  
+    print(gv)  
+
+print_global()  # Output: I am a global variable  
+
+
+
+
+LONG QUESTIONS (EXERCISE)
+
+Give long answers to the following Extended Response Questions (ERQs).
+
+1. Explain the applications of Python in different business and technical domains.
+Ans.
+
+i. Web Development
+Frameworks: Django, Flask, Pyramid
+
+Applications: Python is used to build server-side web applications. Django and Flask are popular frameworks that facilitate rapid development and clean, pragmatic design.
+
+Examples: Websites like Instagram, Pinterest
+
+ii. Data Science and Analytics
+Libraries: Pandas, NumPy, Matplotlib
+
+Applications: Python is extensively used for data analysis, manipulation, and visualization. It enables data scientists to clean and process data, perform statistical analysis, and visualize data insights.
+
+Examples: Analyzing sales data, customer behavior analytics, financial modeling, and scientific research.
+
+iii. Machine Learning and Artificial Intelligence
+Libraries: TensorFlow, PyTorch
+
+Applications: Python provides powerful libraries and frameworks for building and deploying machine learning and AI models. It’s used for tasks like image recognition, natural language processing, and predictive analytics.
+
+Examples: Recommendation systems, fraud detection systems, autonomous vehicles, and chatbots.
+
+iv. Finance and Fintech
+Libraries: QuantLib, Zipline
+
+Applications: Python is used for quantitative finance, algorithmic trading, financial analysis, and risk management.
+
+Examples: Building trading bots, analyzing financial markets, developing financial models, and risk management systems.
+
+v. Scientific Computing
+Libraries: NumPy, SciPy, SymPy
+
+Applications: Python is used in scientific research for performing complex mathematical computations, simulations, and modeling.
+
+Examples: Computational biology, physics simulations, and engineering analysis.
+
+vi. Cybersecurity
+Tools: Scapy, Paramiko, PyCrypto
+
+Applications: Python is used for developing security tools, performing network analysis, and automating security tasks.
+
+vii. Game Development
+Libraries: Pygame, PyKyra
+
+Applications: Python is used for developing simple games and interactive applications. Pygame provides functionalities for game development.
+
+Examples: Developing 2D games, educational games.
+
+viii. Embedded Systems
+Libraries: MicroPython, CircuitPython
+
+Applications: Python is used in embedded systems for controlling hardware components and building IoT devices.
+
+Examples: Building smart home devices, robotics, and sensors.
+
+ix. Desktop GUI Applications
+Frameworks: Tkinter, PyQt
+
+Applications: Python is used to develop desktop applications with graphical user interfaces.
+
+Internet of Things (IoT)
+Libraries: MQTT, RPi.GPIO (for Raspberry Pi)
+
+Applications: Python is used to develop IoT solutions that connect devices and manage data communication.
+
+Examples: Smart home automation, industrial IoT systems, and environmental monitoring.
+
+
+
+xi. Cloud Computing
+Platforms: AWS Lambda (using Python), Google Cloud Functions
+
+Applications: Python is used for developing cloud-based applications and managing cloud infrastructure.
+
+Examples: Serverless applications, cloud automation scripts, and data processing pipelines.
+
+
+
+
+
+
+
+2. What are the basic functions that 'List' provides? Elaborate each of them with an example.
+Ans.
+Python's list provides a variety of basic functions (methods) that allow you to manipulate lists in many ways. Here are some of the most commonly used list methods, each elaborated with an example:
+
+i. len()
+Returns the number of items in an object.
+
+Example:
+
+
+
+my_list = [1, 2, 3, 4, 5]
+length = len(my_list)
+print(length)  # Output: 5
+
+
+ii. min()
+Returns the smallest item in an iterable or the smallest of two or more arguments.
+
+Example:
+
+
+my_list = [1, 2, 3, 4, 5]
+minimum = min(my_list)
+print(minimum)  # Output: 1
+
+iii. max()
+Returns the largest item in an iterable or the largest of two or more arguments.
+
+Example:
+
+
+my_list = [1, 2, 3, 4, 5]
+maximum = max(my_list)
+print(maximum)  # Output: 5
+
+
+iv. sum()
+Sums the items of an iterable from left to right and returns the total.
+
+Example:
+
+
+my_list = [1, 2, 3, 4, 5]
+total = sum(my_list)
+print(total)  # Output: 15
+
+v. randint()
+Returns a random integer between the specified integers, inclusive.
+
+Note: You need to import the random module to use this function.
+
+Example:
+
+
+import random
+random_number = random.randint(1, 10)
+print(random_number)  # Output: A random number between 1 and 10
+
+
+vi. append()
+Adds an item to the end of the list.
+
+Example:
+
+
+
+fruits = ['apple', 'banana', 'cherry']
+fruits.append('orange')
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'orange']
+
+
+vii. index()
+Returns the index of the first item with the specified value.
+
+Example:
+
+
+
+fruits = ['apple', 'banana', 'cherry']
+index = fruits.index('banana')
+print(index)  # Output: 1
+
+
+viii. insert()
+Inserts an item at a given position.
+
+Example:
+
+
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, 'orange')
+print(fruits)  # Output: ['apple', 'orange', 'banana', 'cherry']
+
+
+ix. remove()
+Removes the first item with the specified value.
+
+Example:
+
+
+fruits = ['apple', 'banana', 'cherry', 'banana']
+fruits.remove('banana')
+print(fruits)  # Output: ['apple', 'cherry', 'banana']
+
+
+x. clear()
+Removes all items from the list.
+
+Example:
+
+
+fruits = ['apple', 'banana', 'cherry']
+fruits.clear()
+print(fruits)  # Output: []
+
+
+
+4. How to locate and select Debugger in IDLE?
+To locate and use the Debugger in Python’s Integrated Development and Learning Environment (IDLE), follow these steps:
+
+Steps to Locate and Use Debugger in IDLE
+Open IDLE:
+
+Start the IDLE application. You can find it in your Python installation directory or search for "IDLE" in your operating system’s search bar.
+
+Open/Create a Python Script:
+
+Open an existing Python script or create a new one. You can do this by selecting File > Open or File > New File.
+
+Write Your Python Code:
+
+Write or open your Python code in the script editor. For this example, let’s use a simple code snippet.
+
+Python code:
+
+
+
+def add(a, b):  
+    return a + b  
+
+def main():  
+    x = 5  
+    y = 10  
+    result = add(x, y)  
+    print("The result is:", result)  
+
+if __name__ == "__main__":  
+    main()  
+Set a Breakpoint:
+
+Place your cursor on the line where you want to set a breakpoint (for example, on the line result = add(x, y)).
+
+To set a breakpoint, right-click on the line and select Set Breakpoint, or go to Debug > Set Breakpoint.
+
+Enable the Debugger:
+
+Go to Debug > Debugger. This will open the Debug Control window.
+
+Run Your Script:
+
+Go to Run > Run Module or press F5. The script will start running and will pause at the breakpoint you set.
+
+Using the Debugger
+Inspect Variables:
+
+When the script pauses at the breakpoint, you can inspect the variables by looking at the Locals and Globals tabs in the Debug Control window.
+
+Step Through the Code:
+
+Use the buttons in the Debug Control window to step through the code:
+
+Go: Continue execution until the next breakpoint or the end of the script.
+
+Step: Step into the next line of code.
+
+Over: Step over the next line of code, running the line without going into any function calls.
+
+Out: Step out of the current function.
+
+Watch Variables:
+
+You can add variables to the Watch list to monitor their values as you step through the code.
+
+Stop Debugging:
+
+To stop debugging, click the Quit button in the Debug Control window or simply close the window.
+
+Example Walkthrough
+Set a Breakpoint:
+
+Set a breakpoint at result = add(x, y).
+
+Enable the Debugger and Run:
+
+Enable the debugger and run the script. The script will pause at the breakpoint.
+
+Inspect Variables:
+
+Check the values of x and y in the Debug Control window.
+
+Step Into add Function:
+
+Use the Step button to step into the add function and observe the values of a and b.
+
+Step Over:
+
+Use Step Over to execute the return statement and return to the main function.
+
+
+
+vi. Continue Execution:
+   • Use the Go button to continue execution and print the result.
+   This allows you to locate and use the Debugger in IDLE to step through your code, inspect 
+   variables, and debug effectively.
+
+
+
+
+

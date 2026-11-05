@@ -1,0 +1,10 @@
+
+
+
+                            **************  Battery Health   ************
+
+Open CMD as an administrator -->  Type --> powercfg/batteryreport --> Press Enter --> then copy the path you get and paste it in search bar "This PC" --> Got Battery Info
+
+Full Charge Capacity * 100 / Design Capacity 
+
+If it abooves then 70%, Then It'll be Okay.

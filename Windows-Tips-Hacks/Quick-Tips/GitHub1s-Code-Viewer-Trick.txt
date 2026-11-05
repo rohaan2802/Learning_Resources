@@ -1,0 +1,7 @@
+
+
+
+                             **************  GitHub Trick  **************
+
+Open any GitHub Repository and type "1s" after word github in the link like ---> https:///github1s.com/Genymobile/scrcpy
+Then You'll be able to see the repository code in much better way.

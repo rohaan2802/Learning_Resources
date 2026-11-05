@@ -1,0 +1,21 @@
+
+
+
+                   *************  Disable or Enable Wifi   *************
+
+Save the file name with .bat extension by writing the below code for enable or disable the wifi and run as administrator
+
+
+
+
+
+
+@Echo off
+netsh interface set interface "wifi" Disable
+
+
+
+
+
+@Echo off
+netsh interface set interface "wifi" Enable

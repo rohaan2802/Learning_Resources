@@ -1,0 +1,30 @@
+Lecture slides for whole content from different faculty members have been uploaded  at
+ https://drive.google.com/drive/folders/10Ky6n_vI2EwLHstnJ6dYq7EQuTwpkUan?usp=sharing
+
+other visual:
+https://docs.google.com/document/d/1a1jBIZ7cjOO6C0CmMyTbzTGkd9Xo1r5xPek2Gzu8hdQ/edit?tab=t.0#heading=h.8yq7wa13t3k9
+
+Short: https://www.youtube.com/watch?v=0NwsayeOsd4/
+
+Detailed: https://www.freecodecamp.org/news/learn-c-with-free-31-hour-course/
+
+(Chapter 17 & 18). i.e. (20:15:00 - 1:02:21:00 ---------   ~6 hours   --------- https://youtu.be/8jLOx1hD3_o?t=72941)
+
+Written: https://www.codewithharry.com/tutorial/cpp-oop-basics/
+
+Slides: https://drive.google.com/drive/u/1/folders/1MR9x1sUfoBhllyK93h2YLWef-0WGKYUs (Lecture 10 - Lecture 17) 
+
+Some short videos on Recursion:
+https://www.youtube.com/watch?v=ngCos392W4w
+https://www.youtube.com/watch?v=6oDQaB2one8
+https://www.youtube.com/watch?v=0nKIr3kAt-k
+Next start exploring Pointers:
+https://www.youtube.com/watch?v=rtgwvkaYt1A
+https://www.programiz.com/cpp-programming/pointers
+https://www.programiz.com/cpp-programming/pointers-arrays
+https://www.programiz.com/cpp-programming/references
+https://www.programiz.com/cpp-programming/pointers-function
+https://www.programiz.com/cpp-programming/memory-management
+
+other:
+https://www.youtube.com/watch?v=0NwsayeOsd4

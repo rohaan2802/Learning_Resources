@@ -1,0 +1,7 @@
+
+
+
+                       *************  Repair Corrupted Drive  **********
+
+
+Open CMD as an Admnistrator   ----> Type ---> diskpart ---> Press Enter  ----> Type ---> list disk  ---> Press Enter ---> Type ---> select disk 0/1/2 ---> Press Enter ---> Type ---> clean ---> Press Enter --- > Type ---> create partition primary ---> Press Enter ---> Then Format your pen drive 

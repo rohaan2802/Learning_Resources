@@ -1,0 +1,7 @@
+
+
+
+                         ************** How To Keep Laptop playing on Music even laptop is lock  **********
+
+
+Goto Power & Sleep ---> Additional Power Settings ---> Choose what closing the lid does ---> When I close the lid ---> Do Nothing ---> Do Nothing ---> changes

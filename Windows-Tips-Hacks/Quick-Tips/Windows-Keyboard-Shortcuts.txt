@@ -1,0 +1,6 @@
+Windows+V                         Clipboard History
+Windows+1/2/3/4/5                TaskBar Applications Respectively
+Delete a Word                      Ctrl+BackSpace
+Shows The Background Tabs        Windows+Tab
+Project                              Windows+P
+Lock Screen                         Windows+L

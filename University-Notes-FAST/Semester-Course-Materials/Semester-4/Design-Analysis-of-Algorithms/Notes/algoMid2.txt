@@ -1,0 +1,357 @@
+Algo mid 2 approximate syllabus
+Boi dekho tum ne mid acha acha dena he .. mere kehna ka matlab pehle se zyada acha ... 
+jaani tum ne america jana he .. america jany ke liye parho... boi mujhe tumhari bht fikar , tum mere office anaa lazmi  :)
+
+ = ----Kadane's algorithm and B-tree deletion + searching not included  in MID-2 ----=
+
+
+1. Count sort
+#include <iostream>
+#include <vector>
+using namespace std;
+
+void countSort(vector<int>& arr) {
+    int max = *max_element(arr.begin(), arr.end());
+    vector<int> count(max + 1, 0), output(arr.size());
+    for (int i=0; i<arr.size();i++) {
+        count[arr[i]]++;
+    }
+    for (int i = 1; i <= max; i++) {
+        count[i] += count[i - 1];
+    }
+    for (int i = arr.size() - 1; i >= 0; i--) {
+        output[count[arr[i]] - 1] = arr[i];
+        count[arr[i]]--;
+    }
+    for (int i = 0; i < arr.size(); i++) {
+        arr[i] = output[i];
+    }
+}
+
+int main() {
+    vector<int> data = {4, 2, 2, 8, 3, 3, 1};
+    countSort(data);
+    for (int num : data) {
+        cout << num << " ";
+    }
+    return 0;
+}
+
+2. Radix sort 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int getMax(const vector<int>& arr) {
+    int mx = arr[0];
+    for (int i = 1; i < arr.size(); i++)
+        if (arr[i] > mx)
+            mx = arr[i];
+    return mx;
+}
+
+void countSortForRadix(vector<int>& arr, int exp) {
+    vector<int> output(arr.size());
+    vector<int> count(10, 0);
+
+    for (int i = 0; i < arr.size(); i++)
+        count[(arr[i] / exp) % 10]++;
+
+    for (int i = 1; i < 10; i++)
+        count[i] += count[i - 1];
+
+    for (int i = arr.size() - 1; i >= 0; i--) {
+        output[count[(arr[i] / exp) % 10] - 1] = arr[i];
+        count[(arr[i] / exp) % 10]--;
+    }
+
+    for (int i = 0; i < arr.size(); i++)
+        arr[i] = output[i];
+}
+
+void radixSort(vector<int>& arr) {
+    int m = getMax(arr);
+    for (int exp = 1; m / exp > 0; exp *= 10)
+        countSortForRadix(arr, exp);
+}
+
+int main() {
+    vector<int> data = {170, 45, 75, 90, 802, 24, 2, 66};
+    radixSort(data);
+    for (int num : data) {
+        cout << num << " ";
+    }
+    return 0;
+}
+
+3. Bucket sort
+#include <iostream>
+#include <vector>
+using namespace std;
+
+void insertionSort(vector<float>& bucket) {
+    for (int i = 1; i < bucket.size(); i++) {
+        float temp = bucket[i];
+        int j = i - 1;
+        while (j >= 0 && bucket[j] > temp) {
+            bucket[j + 1] = bucket[j];
+            j--;
+        }
+        bucket[j + 1] = temp;
+    }
+}
+
+void bucketSort(float arr[], int n) {
+    int numBuckets = 10;
+    vector<vector<float>> buckets(numBuckets);
+
+    for (int i = 0; i < n; i++) {
+        int bi = numBuckets * arr[i];
+        buckets[bi].push_back(arr[i]);
+    }
+
+    for (int i = 0; i < numBuckets; i++) {
+        insertionSort(buckets[i]);
+    }
+
+    int index = 0;
+    for (int i = 0; i < numBuckets; i++) {
+        for (int j = 0; j < buckets[i].size(); j++) {
+            arr[index++] = buckets[i][j];
+        }
+    }
+}
+
+int main() {
+    float data[] = {0.42, 0.32, 0.23, 0.52, 0.25, 0.47, 0.51};
+    int n = sizeof(data) / sizeof(data[0]);
+    bucketSort(data, n);
+    for (int i = 0; i < n; i++) {
+        cout << data[i] << " ";
+    }
+    return 0;
+}
+
+4. Heap sort
+#include <iostream>
+using namespace std;
+
+void heapify(int arr[], int n, int i) {
+    int largest = i;
+    int l = 2 * i + 1;
+    int r = 2 * i + 2;
+
+    if (l < n && arr[l] > arr[largest])
+        largest = l;
+
+    if (r < n && arr[r] > arr[largest])
+        largest = r;
+
+    if (largest != i) {
+        swap(arr[i], arr[largest]);
+        heapify(arr, n, largest);
+    }
+}
+
+void heapSort(int arr[], int n) {
+    for (int i = n / 2 - 1; i >= 0; i--)
+        heapify(arr, n, i);
+
+    for (int i = n - 1; i > 0; i--) {
+        swap(arr[0], arr[i]);
+        heapify(arr, i, 0);
+    }
+}
+
+int main() {
+    int data[] = {4, 10, 3, 5, 1};
+    int n = sizeof(data) / sizeof(data[0]);
+    heapSort(data, n);
+    for (int i = 0; i < n; i++) {
+        cout << data[i] << " ";
+    }
+    return 0;
+}
+
+5. Maximum sub array problem
+ Brute force:
+#include <iostream>
+using namespace std;
+
+int maxSubArraySumBruteForce(int arr[], int n) {
+    int maxSum = INT_MIN;
+    for (int i = 0; i < n; i++) {
+        int currentSum = 0;
+        for (int j = i; j < n; j++) {
+            currentSum += arr[j];
+            maxSum = max(maxSum, currentSum);
+        }
+    }
+    return maxSum;
+}
+
+ Divide and Conquer:
+#include <iostream>
+using namespace std;
+
+int maxCrossingSum(int arr[], int l, int m, int h) {
+    int sum = 0;
+    int leftSum = INT_MIN;
+    for (int i = m; i >= l; i--) {
+        sum += arr[i];
+        if (sum > leftSum)
+            leftSum = sum;
+    }
+
+    sum = 0;
+    int rightSum = INT_MIN;
+    for (int i = m + 1; i <= h; i++) {
+        sum += arr[i];
+        if (sum > rightSum)
+            rightSum = sum;
+    }
+    return max(leftSum + rightSum, max(leftSum, rightSum));
+}
+
+int maxSubArraySumDivideAndConquer(int arr[], int l, int h) {
+    if (l == h)
+        return arr[l];
+    int m = (l + h) / 2;
+    return max(maxSubArraySumDivideAndConquer(arr, l, m) , max(maxSubArraySumDivideAndConquer(arr, m + 1, h) , maxCrossingSum(arr, l, m, h)));
+}
+
+ Kadane's:
+int Maximum_Sum_Subarray(int arr[], int n)
+{
+int ans = 0, sum = 0;
+for (int i=0;i < n; ++i)
+{
+	if(sum + arr[i] > 0)
+	sum+= arr[i];
+	else
+	sum = 0;hea
+	ans = max(ans, sum);
+}
+return ans;
+}
+
+6. String pattern matching 
+Brute force:
+#include <iostream>
+#include <string>
+using namespace std;
+
+void bruteForceSearch(const string &text, const string &pattern) {
+    int n = text.length();
+    int m = pattern.length();
+    for (int i = 0; i <= n - m; i++) {
+        int j;
+        for (j = 0; j < m; j++) {
+            if (text[i + j] != pattern[j])
+                break;
+        }
+        if (j == m)
+            cout << "Pattern found at index " << i << endl;
+    }
+}
+int main() {
+    string text = "ABABDABACDABABCABAB";
+    string pattern = "ABABCABAB";
+    bruteForceSearch(text, pattern);
+    return 0;
+}
+
+ Rabin-Karp:
+#include <iostream>
+#include <string>
+#define d 256 // Number of characters in the input alphabet
+using namespace std;
+
+void rabinKarpSearch(const string &text, const string &pattern, int q) {
+    int n = text.length();
+    int m = pattern.length();
+    int h = 1;
+    int p = 0; // hash value for pattern
+    int t = 0; // hash value for text
+    for (int i = 0; i < m - 1; i++)
+        h = (h * d) % q;
+    for (int i = 0; i < m; i++) {
+        p = (d * p + pattern[i]) % q;
+        t = (d * t + text[i]) % q;
+    }
+    for (int i = 0; i <= n - m; i++) {
+        if (p == t) {
+            bool flag = true;
+            for (int j = 0; j < m; j++) {
+                if (text[i + j] != pattern[j]) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag)
+                cout << "Pattern found at index " << i << endl;
+        }
+        if (i < n - m) {
+            t = (d * (t - text[i] * h) + text[i + m]) % q;
+            if (t < 0)
+                t = (t + q);
+        }
+    }
+}
+int main() {
+    string text = "ABABDABACDABABCABAB";
+    string pattern = "ABABCABAB";
+    int q = 101; // A prime number
+    rabinKarpSearch(text, pattern, q);
+    return 0;
+}
+
+ KMP:
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+vector<int> computePrefixFunction(const string &pattern) {
+    int m = pattern.length();
+    vector<int> pi(m, 0);
+    int k = 0;
+    for (int q = 1; q < m; q++) {
+        while (k > 0 && pattern[k] != pattern[q])
+            k = pi[k - 1];
+        if (pattern[k] == pattern[q])
+            k++;
+        pi[q] = k;
+    }
+    return pi;
+}
+
+void kmpSearch(const string &text, const string &pattern) {
+    int n = text.length();
+    int m = pattern.length();
+    vector<int> pi = computePrefixFunction(pattern);
+    int q = 0;
+    for (int i = 0; i < n; i++) {
+        while (q > 0 && pattern[q] != text[i])
+            q = pi[q - 1];
+        if (pattern[q] == text[i])
+            q++;
+        if (q == m) {
+            cout << "Pattern occurs with shift " << i - m + 1 << endl;
+            q = pi[q - 1];
+        }
+    }
+}
+
+int main() {
+    string text = "ABABDABACDABABCABAB";
+    string pattern = "ABABCABAB";
+    kmpSearch(text, pattern);
+    return 0;
+}
+
+7. B-Tree insertion, deletion, properties.
+https://www.cs.usfca.edu/~galles/visualization/BTree.html
+
+Best Regards ,
+🦁

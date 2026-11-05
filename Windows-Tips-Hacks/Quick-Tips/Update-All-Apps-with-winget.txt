@@ -1,0 +1,7 @@
+
+
+
+
+                                         ***********  To get Latest Versions Info of All Installed system Apps  **********
+
+Open CMD as an Administrator ---> Type ---> Winget upgrade --all ---> Press Enter 

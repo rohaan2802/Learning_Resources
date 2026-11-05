@@ -1,0 +1,47 @@
+Adding Vectors
+Component of Vectors
+Unit Vectors
+Vector and Scalar Product
+Position and Displacement
+Numerical Problems (Example & Practice Problems) of Chapter 3
+Average/ Instantaneous Velocity/Acceleration
+
+
+Projectile Motion,Horizontal/vertical motions, Equation of the path, Max. height, Time of flight, Horizontal range
+Uniform Circular Motion
+Newton Laws of Motion, Forces (1D/2D): Gravitational, Friction, Tension, Weight
+Numericals Problems of Chapter 4 & 5
+
+
+
+Paper Pattern for MID I
+Short questions 4-7 ( conceptual + formula based)
+Numerical Problems 3-4 ( examples + practice problems)
+
+
+
+Simple Pendulum,
+Circular Motion & SHM
+ Damped Simple Harmonic Motion
+ Forced Oscillations and Resonance
+ Numerical Problems
+
+
+Coulomb's Law
+Charge Quantized & Conservation
+Electric Field
+Electric Field due to point charge
+Electric Field due to Dipole
+Gauss law
+Flux, Flux of Electric Field
+
+
+
+
+Capacitance
+Parallel Plate
+Cylindrical & Spherical Capacitors
+Capacitors in Parallel and In Series
+ Numerical Problems
+
+
