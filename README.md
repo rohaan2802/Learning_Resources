@@ -25,7 +25,9 @@ This repository is the GitHub-safe, organized copy of my learning materials. Sma
 - [Folder Structure](#-folder-structure)
 - [How to Use](#-how-to-use)
 - [Screenshots](#-screenshots)
+- [About this repository](#-about-this-repository)
 - [License](#-license)
+- [Author](#-author)
 
 ## 📖 Overview
 
@@ -566,6 +568,34 @@ Fifty headed screenshots of study material and of the website (desktop dark/ligh
 
 <p align="center"><img src="assets/screenshots/50_Past_Papers_Links.png" alt="Past papers links page" width="900"></p>
 
+## ℹ️ About this repository
+
+This public repository is my **Learning Resources** library: a ToS-safe, organized subset of the study material I use for Computer Science at FAST-NUCES and for self-study.
+
+**What you get here**
+
+- **24 topic folders** covering university notes (FAST), Personal Hand Written Notes, math and physics sheets, programming concepts, AI/ML and computer-vision lecture PDFs (large ones via Release), front-end resources, career links, and more
+- A **searchable website** (`index.html`) with dark/light theme, collapsible folders, topic browser pages, and copy-friendly Live Links
+- **GitHub Pages** at https://rohaan2802.github.io/Learning_Resources/ (enable Pages from `main` / root if the site is not live yet)
+- **Release v1.0** for large study files (about 8 MB and up) so the git tree stays small enough to push over HTTPS — those downloads are listed in the Large Files table above and on the website
+
+**What this is not**
+
+Purchased or copyrighted course **videos**, commercial books that should not be redistributed, installers/executables, and security-tool how-tos are intentionally left out. Digital Skills appears as a **catalog of lesson names only**.
+
+**How to use it**
+
+Open the Pages site or `index.html` after cloning/ZIP download, search or browse a folder, use topic pages for curated link lists, and download oversized PDFs from Release v1.0 when a file is not inside the cloned folders.
+
 ## 📄 License
 
-MIT License for my own notes and the website code. Third-party documents remain the property of their authors.
+MIT License for my own notes and the website code. Third-party documents remain the property of their authors. Shared here for learning and revision only.
+
+## 👤 Author
+
+**Mohammad Rohaan** — BS Computer Science, FAST-NUCES
+
+- GitHub: [@rohaan2802](https://github.com/rohaan2802)
+- Email: [m.rohaanarshad@gmail.com](mailto:m.rohaanarshad@gmail.com)
+
+If this Learning Resources library helped you study or revise, a ⭐ on the repository is appreciated.
