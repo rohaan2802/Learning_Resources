@@ -27,7 +27,7 @@ This repository is the GitHub-safe, organized copy of my learning materials. Sma
 - [Screenshots](#-screenshots)
 - [About this repository](#-about-this-repository)
 - [License](#-license)
-- [Author](#-author)
+- [About the Author](#about-the-author)
 
 ## 📖 Overview
 
@@ -591,11 +591,11 @@ Open the Pages site or `index.html` after cloning/ZIP download, search or browse
 
 MIT License for my own notes and the website code. Third-party documents remain the property of their authors. Shared here for learning and revision only.
 
-## 👤 Author
+## About the Author
 
-**Mohammad Rohaan** — BS Computer Science, FAST-NUCES
+**Mohammad Rohaan** · BS Computer Science, FAST-NUCES
 
-- GitHub: [@rohaan2802](https://github.com/rohaan2802)
-- Email: [m.rohaanarshad@gmail.com](mailto:m.rohaanarshad@gmail.com)
+I maintain Learning Resources as a reference for coursework, exam revision and independent study. For a correction or resource suggestion, include the collection name and the page or filename.
 
-If this Learning Resources library helped you study or revise, a ⭐ on the repository is appreciated.
+- [GitHub profile](https://github.com/rohaan2802)
+- [Email Mohammad Rohaan](mailto:m.rohaanarshad@gmail.com)
