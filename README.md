@@ -61,12 +61,12 @@ There are **24** top-level topic folders and **1051** files tracked in those fol
 | `GenAI-LangChain-Course` | 1 | GenAI / LangChain / RAG course links. |
 | `Interview-Prep` | 2 | Interview preparation sites and SQL questions. |
 | `Learning-Websites` | 1 | Important online learning websites. |
-| `Math-Physics-Notes` | 90 | Math and physics study-note PDFs (calculus, algebra, complex numbers) and formula-sheet images. |
+| `Math-Physics-Notes` | 91 | Math and physics study-note PDFs (calculus, algebra, complex numbers) and formula-sheet images. |
 | `PowerShell-Notes` | 1 | Windows PowerShell beginner book. |
 | `Programming-Concepts` | 17 | Short CS concept notes: C++, Git, assembly, digital logic. |
 | `School-Books-FBISE` | 1 | Federal Board (FBISE) school textbooks for Grades 9–12: Mathematics and Computer Science. |
 | `Skills-Reference` | 1 | Skills requirements chart. |
-| `University-Notes-FAST` | 836 | FAST NUCES BS CS: semester 1-5 course materials (slides, labs, assignments, past papers), shared handwritten notes, program info and past-paper links. |
+| `University-Notes-FAST` | 835 | FAST NUCES BS CS: semester 1-5 course materials (slides, labs, assignments, past papers), shared handwritten notes, program info and past-paper links. |
 | `Windows-Tips-Hacks` | 24 | Windows quick tips (shortcuts, drive repair, Wi-Fi, battery health) and a registry font tweak. |
 | `YouTube-Utilities` | 1 | YouTube unsubscribe-all helper. |
 
@@ -176,11 +176,13 @@ Important online learning websites.
 
 Common types: `.html`×1.
 
-### `Math-Physics-Notes` (90 files)
+### `Math-Physics-Notes` (91 files)
 
 Math and physics study-note PDFs (calculus, algebra, complex numbers) and formula-sheet images.
 
-Common types: `.jpg`×44, `.pdf`×34, `.png`×11, `.html`×1.
+Common types: `.jpg`×44, `.pdf`×35, `.png`×11, `.html`×1.
+
+**Study note highlight:** [Decimal logarithms: characteristic and mantissa](Math-Physics-Notes/Study-Notes-PDF/Logarithms_Characteristic_Mantissa_Detailed_Notes.pdf). Four-page revision notes covering scientific notation, positive mantissas, barred characteristics, worked conversions and the exact-integer exception.
 
 ### `PowerShell-Notes` (1 files)
 
@@ -208,11 +210,11 @@ Skills requirements chart.
 
 Common types: `.jpg`×1.
 
-### `University-Notes-FAST` (836 files)
+### `University-Notes-FAST` (835 files)
 
 FAST NUCES BS CS: semester 1-5 course materials (slides, labs, assignments, past papers), shared handwritten notes, program info and past-paper links.
 
-Common types: `.pdf`×443, `.jpg`×145, `.docx`×87, `.cpp`×36, `.txt`×20, `.zip`×20.
+Common types: `.pdf`×443, `.jpg`×145, `.docx`×86, `.cpp`×36, `.txt`×20, `.zip`×20.
 
 Also on **Release v1.0** for this topic: **39** large file(s) (see Large Files table).
 
@@ -576,7 +578,7 @@ This public repository is my **Learning Resources** library: a ToS-safe, organiz
 
 - **24 topic folders** covering university notes (FAST), Personal Hand Written Notes, math and physics sheets, programming concepts, AI/ML and computer-vision lecture PDFs (large ones via Release), front-end resources, career links, and more
 - A **searchable website** (`index.html`) with dark/light theme, collapsible folders, topic browser pages, and copy-friendly Live Links
-- **GitHub Pages** at https://rohaan2802.github.io/Learning_Resources/ (enable Pages from `main` / root if the site is not live yet)
+- **GitHub Pages** at https://rohaan2802.github.io/Learning_Resources/
 - **Release v1.0** for large study files (about 8 MB and up) so the git tree stays small enough to push over HTTPS — those downloads are listed in the Large Files table above and on the website
 
 **What this is not**
@@ -589,7 +591,7 @@ Open the Pages site or `index.html` after cloning/ZIP download, search or browse
 
 ## 📄 License
 
-MIT License for my own notes and the website code. Third-party documents remain the property of their authors. Shared here for learning and revision only.
+MIT License for my own notes and the website code. Third-party documents retain their authors’ rights and their own licensing terms; the repository license does not grant redistribution rights to those documents. Add third-party material only when its license or the rights holder permits redistribution.
 
 ## About the Author
 
