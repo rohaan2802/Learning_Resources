@@ -6,6 +6,7 @@
 
 This repository is the GitHub-safe, organized copy of my learning materials. Smaller files live in topic folders inside the repo. Larger PDFs and notebooks (about 8&nbsp;MB and up) are published as assets of <b>Release v1.0</b> so HTTPS pushes stay reliable. The website at the root (`index.html`) lists both: open a folder for in-repo files, or use <b>Large Files</b> for Release downloads.
 
+<a id="section-live-links"></a>
 ## 🔗 Live Links
 
 | What | Link |
@@ -17,18 +18,23 @@ This repository is the GitHub-safe, organized copy of my learning materials. Sma
 
 ## 📑 Table of Contents
 
-- [Overview](#-overview)
-- [What's Inside](#-whats-inside)
-- [Topic folders in detail](#-topic-folders-in-detail)
-- [Large Files (Release Downloads)](#-large-files-release-downloads)
-- [Not Included](#-not-included)
-- [Folder Structure](#-folder-structure)
-- [How to Use](#-how-to-use)
-- [Screenshots](#-screenshots)
-- [About this repository](#-about-this-repository)
-- [License](#-license)
-- [About the Author](#about-the-author)
+1. [Live Links](#section-live-links)
+2. [Overview](#section-overview)
+3. [Library editions and file counts](#section-library-editions-and-file-counts)
+4. [What's Inside](#section-whats-inside)
+5. [Topic folders in detail](#section-topic-folders-in-detail)
+6. [Large Files (Release Downloads)](#section-large-files-release-downloads)
+7. [Not Included](#section-not-included)
+8. [Folder Structure](#section-folder-structure)
+9. [How to Use](#section-how-to-use)
+10. [Running and maintaining the library](#section-running-and-maintaining-the-library)
+11. [Verification and scope](#section-verification-and-scope)
+12. [Screenshots](#section-screenshots)
+13. [About this repository](#section-about-this-repository)
+14. [License](#section-license)
+15. [About the Author](#section-about-the-author)
 
+<a id="section-overview"></a>
 ## 📖 Overview
 
 I built this library while studying Computer Science at FAST NUCES and while collecting free reference material online. It is meant to be browsed as a **website** first:
@@ -39,8 +45,23 @@ I built this library while studying Computer Science at FAST NUCES and while col
 - Dedicated topic pages (FAST course browser, math/physics browser, AI roadmap, job boards, etc.)
 - A **Large Files** table that links to GitHub Release assets for big PDFs
 
-There are **24** top-level topic folders and **1051** files tracked in those folders in this checkout (plus website pages and README screenshots under `assets/`). Another **70** large assets live only in Release v1.0.
+There are **24** top-level topic folders and **1,051** files tracked in those folders, including **15** topic browser pages. The homepage, repository metadata and README screenshots are outside that topic-file count. Another **70** study assets live only in Release v1.0.
 
+<a id="section-library-editions-and-file-counts"></a>
+## Library editions and file counts
+
+The public edition contains **24 study collections**, **1,051 in-repository topic files**, **15 topic browser pages**, and **70 study assets linked from Release v1.0**. The homepage therefore indexes **1,121 resources**. Topic browser pages are included in the topic-file count; release notes and screenshot assets are not counted as study resources.
+
+The private local edition is a larger working library. Its extra courses, recordings, private reference collections and support files are not mirrored into this public repository. The public catalog is built only from files already tracked here and the existing release inventory.
+
+- The **Math & Physics browser** indexes 90 resources, including the four-page logarithms note and the correctly named LCM/HCF formula image.
+- The **FAST course browser** indexes all 834 other in-repository University files plus 39 existing release downloads: **873 resources**. Nested folders and search now cover the complete published collection.
+- **Logarithms notes:** [characteristic and mantissa revision PDF](Math-Physics-Notes/Study-Notes-PDF/Logarithms_Characteristic_Mantissa_Detailed_Notes.pdf).
+- **Formula image:** [LCM and HCF of polynomials](Math-Physics-Notes/Formula-Sheets-Images/LCM-HCF-Polynomial.png).
+
+The reference screenshots below are saved captures, not live file counters.
+
+<a id="section-whats-inside"></a>
 ## 📦 What's Inside
 
 | Folder | Files | What you will find |
@@ -70,6 +91,7 @@ There are **24** top-level topic folders and **1051** files tracked in those fol
 | `Windows-Tips-Hacks` | 24 | Windows quick tips (shortcuts, drive repair, Wi-Fi, battery health) and a registry font tweak. |
 | `YouTube-Utilities` | 1 | YouTube unsubscribe-all helper. |
 
+<a id="section-topic-folders-in-detail"></a>
 ## 🗂️ Topic folders in detail
 
 ### `AI-ML-Notes` (8 files)
@@ -230,6 +252,7 @@ YouTube unsubscribe-all helper.
 
 Common types: `.html`×1.
 
+<a id="section-large-files-release-downloads"></a>
 ## 💾 Large Files (Release Downloads)
 
 These files are **not** stored inside the git folders. Download them from Release **v1.0**. Every row below matches a real file in the Release sidecar folder used when publishing the release.
@@ -309,6 +332,7 @@ These files are **not** stored inside the git folders. Download them from Releas
 
 **Release asset count: 70** (all linked above).
 
+<a id="section-not-included"></a>
 ## 🚫 Not Included
 
 To respect copyright and GitHub Terms of Service, this repository intentionally excludes:
@@ -321,6 +345,7 @@ To respect copyright and GitHub Terms of Service, this repository intentionally 
 
 The **Digital Skills** section on the website is a **catalog of lesson names only** (no course videos).
 
+<a id="section-folder-structure"></a>
 ## 🗂️ Folder Structure
 
 ```
@@ -357,6 +382,7 @@ Learning_Resources/
 
 Large files for many of those folders are published separately under GitHub Release `v1.0` (flattened names like `Folder__Sub__file.pdf`).
 
+<a id="section-how-to-use"></a>
 ## 🚀 How to Use
 
 1. **Browse the website:** open [GitHub Pages](https://rohaan2802.github.io/Learning_Resources/) or clone/download the ZIP and open `index.html`.
@@ -366,6 +392,25 @@ Large files for many of those folders are published separately under GitHub Rele
 5. **Large files:** if a PDF is only on Release, use the hub **Large Files** section or the table above. After cloning you will *not* see those binaries inside the topic folders — that is intentional.
 6. **Theme:** toggle dark/light from the header; preference is remembered in the browser.
 
+<a id="section-running-and-maintaining-the-library"></a>
+## Running and maintaining the library
+
+Open `index.html` directly, or preview the public checkout locally:
+
+```sh
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+Open `http://127.0.0.1:8000/`. Search opens matching folders; the theme toggle saves your preference in the browser. Local files work offline; external websites and release downloads need internet access.
+
+When adding a resource, review its redistribution rights first, add it to the correct topic, and update the homepage, affected topic browser, counts and README together. The repository MIT license covers original notes and website code; it does not override a third-party document's license.
+
+<a id="section-verification-and-scope"></a>
+## Verification and scope
+
+The catalog links are checked against the repository tree and release inventory. Favicon paths use the same open-book SVG on the homepage and topic pages. Search, nested folders, PDF/image resolution, both themes and desktop/mobile overflow are checked in the browser. This verifies catalog consistency; it does not certify the licensing of every historical third-party file.
+
+<a id="section-screenshots"></a>
 ## 📸 Screenshots
 
 Fifty headed screenshots of study material and of the website (desktop dark/light and topic pages).
@@ -570,6 +615,7 @@ Fifty headed screenshots of study material and of the website (desktop dark/ligh
 
 <p align="center"><img src="assets/screenshots/50_Past_Papers_Links.png" alt="Past papers links page" width="900"></p>
 
+<a id="section-about-this-repository"></a>
 ## ℹ️ About this repository
 
 This public repository is my **Learning Resources** library: a ToS-safe, organized subset of the study material I use for Computer Science at FAST-NUCES and for self-study.
@@ -589,10 +635,12 @@ Purchased or copyrighted course **videos**, commercial books that should not be 
 
 Open the Pages site or `index.html` after cloning/ZIP download, search or browse a folder, use topic pages for curated link lists, and download oversized PDFs from Release v1.0 when a file is not inside the cloned folders.
 
+<a id="section-license"></a>
 ## 📄 License
 
 MIT License for my own notes and the website code. Third-party documents retain their authors’ rights and their own licensing terms; the repository license does not grant redistribution rights to those documents. Add third-party material only when its license or the rights holder permits redistribution.
 
+<a id="section-about-the-author"></a>
 ## About the Author
 
 **Mohammad Rohaan** · BS Computer Science, FAST-NUCES
